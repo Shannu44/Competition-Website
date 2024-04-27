@@ -148,7 +148,12 @@ nav ul li a
 }
 #premium
 {
-    color: #f1f1f1;
+    margin-top:20px;
+    stroke:white;
+    stroke: width 10px;
+    color: #f4ff59;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
 }
 .buttonpremium
 {
@@ -281,5 +286,5 @@ h3
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
-    padding: 100px 0;
+    padding: 50px 0;
 }
