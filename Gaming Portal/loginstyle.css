@@ -1,0 +1,75 @@
+body
+{
+    background-color: #f2f2f2;
+}
+.login-box{
+    backdrop-filter:blur(20px);
+    border-radius:10px;
+    width: 320px;
+    height: 400px;
+    background-color: rgba(92, 92, 92, 0.26);
+    color: #756767;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login-box h2
+{
+    font-family: Calibri,sans-serif;
+    font-size:30px;
+    padding: 0 0 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.textbox 
+{
+    color:rgb(255, 255, 255);
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 20px 0px ;
+    border: 1px solid #ccc;
+    border-radius:90px;
+}
+.textbox input
+{
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-size: 18px;
+    width: 100%;
+}
+
+.textbox input::placeholder
+{
+    padding: 8px 0 ;
+    color: #828282;
+    font-size: 18px;
+}
+.logbutton 
+{
+    margin-top:45px;
+    margin-left: 80px;
+    height:40px;
+    width:90px;
+    background: #525252;
+    border-radius: 2px;
+}
+.logbutton a
+{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 6px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+    
